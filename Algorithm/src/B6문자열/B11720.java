@@ -11,7 +11,7 @@ public class B11720 {
 		String nums = sc.next();
 		int sum = 0;
 		
-		String[] numsArray = nums.split("", a); // you can use nums.split(""
+		String[] numsArray = nums.split("", a); // you can use nums.split("",a)
 
 		for (String string : numsArray) {
 			sum = sum + Integer.parseInt(string);

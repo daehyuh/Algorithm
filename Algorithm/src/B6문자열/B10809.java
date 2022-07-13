@@ -33,6 +33,7 @@ public class B10809 {
 			}else {
 				System.out.print("-1");
 			}
+			
 			if (i!=checkarr.length-1) {
 				System.out.print(" ");	
 			}
