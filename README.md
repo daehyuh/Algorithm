@@ -14,6 +14,9 @@
 + .trim()
 + StringTokenizer st
 + st.countTokens()
++ StringBuffer sb = new StringBuffer(str) 문자열 거꾸로
++ sb.reverse().toString() 문자열 거꾸로
+
 ```JAVA
 Map<String, Integer> myMap = new HashMap<String, Integer>(); //해쉬맵, 맵 사용법
 put
@@ -29,4 +32,7 @@ strArr[i].charAt(0) - 65
 
 StringTokenizer st = new StringTokenizer(sc.nextLine(), " "); 입력한 토큰?
 System.out.println(st.countTokens());
+
+StringBuffer sb = new StringBuffer(sc.next());
+int num1 = Integer.parseInt(sb.reverse().toString());
 ```
