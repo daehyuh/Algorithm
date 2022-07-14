@@ -50,3 +50,5 @@ int num1 = Integer.parseInt(sb.reverse().toString());
 
 * 5622
   - map
+* 2941
+  - 문자열
