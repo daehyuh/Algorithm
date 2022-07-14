@@ -52,3 +52,6 @@ int num1 = Integer.parseInt(sb.reverse().toString());
   - map
 * 2941
   - replaceAll
+* 5622
+  - 문자열
+
