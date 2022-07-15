@@ -9,23 +9,30 @@
 
 ## 7월 14일
 오늘배운거
-* 10926
-* 18108
-* 25083
-* 1065
-* 10809
-  - Map
-* 1152
-  - StringTokenizer
-* 1157
-  - charAt
-* 11720
-* 2675
-* 2908
-  - StringBuffer sb = new StringBuffer(str)
-  - sb.reverse().toString() 문자열 거꾸로
-  - trim()
+* 입출력
+  - 10926
+  - 18108
+  - 25083
 
+* 함수
+  - 1065
+  
+* 문자열
+  - 10809
+    + Map
+  - 1152
+    + StringTokenizer
+  - 1157
+    + charAt
+  - 11720
+  - 2675
+  - 2908
+    + 수학
+    + 구현
+    + StringBuffer sb = new StringBuffer(str)
+    + sb.reverse().toString() 문자열 거꾸로
+    + trim()
+<!--
 ```JAVA
 Map<String, Integer> myMap = new HashMap<String, Integer>(); //해쉬맵, 맵 사용법
 put
@@ -45,13 +52,21 @@ System.out.println(st.countTokens());
 StringBuffer sb = new StringBuffer(sc.next());
 int num1 = Integer.parseInt(sb.reverse().toString());
 ```
+-->
+
 ## 7월 15일
 오늘배운거
-
-* 5622
-  - map
-* 2941
-  - replaceAll
-* 5622
-  - 문자열
-
+* 문자열
+  - 1316
+    + 구현
+  - 2941
+    + 구현
+    + replaceAll
+  - 5622
+    + 구현
+    + map
+  - 5622
+    + 구현
+* 기초수학
+  - 1712
+    + 수학
