@@ -32,27 +32,7 @@
     + StringBuffer sb = new StringBuffer(str)
     + sb.reverse().toString() 문자열 거꾸로
     + trim()
-<!--
-```JAVA
-Map<String, Integer> myMap = new HashMap<String, Integer>(); //해쉬맵, 맵 사용법
-put
-get
 
-
-charAt(0) //사용법을 익힘
-strArr[i].charAt(0) - 65
-(char)65 // Unicode 65 =  A
-
-
-<String>.trim() //앞뒤 공백을 없애준다
-
-StringTokenizer st = new StringTokenizer(sc.nextLine(), " "); 입력한 토큰?
-System.out.println(st.countTokens());
-
-StringBuffer sb = new StringBuffer(sc.next());
-int num1 = Integer.parseInt(sb.reverse().toString());
-```
--->
 
 ## 7월 15일
 오늘배운거
@@ -70,3 +50,39 @@ int num1 = Integer.parseInt(sb.reverse().toString());
 * 기초수학
   - 1712
     + 수학
+    
+## 7월 16일
+오늘배운거
+* 기초수학
+  - 10250
+    + 사칙연산
+  - 10757
+    + 임의 정밀도
+  - 1193
+    + 수학, 구현
+  - 2292
+    + 수학, 구현
+  - 2775
+    + 수학, 구현
+  - 2839
+    + DP, 수학, 구현
+  - 2869
+    + 수학, 구현
+* 기초수학2
+  - 11653
+    + 정수론, 소수판별
+  - 1929
+    + 에라토스테네스의 체
+  - 1978
+    + 정수론, 소수판별, 아라토스테네스의 체
+  - 2581
+    + 정수론, 소수판별
+  - 4948
+    + 정수론, 소수판별, 에라토스테네스의 체
+  - 9020
+    + 정수론, 소수판별, 에라토스테네스의 체
+* 재귀함수
+  - 10870
+    + 구현, 재귀
+  - 10872
+    + 구현, 조합론
