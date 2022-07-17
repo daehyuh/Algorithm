@@ -1,5 +1,5 @@
 package B7기초수학;
-
+//구현
 import java.util.Scanner;
 
 public class B10250 {
