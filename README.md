@@ -4,7 +4,7 @@
 [백준 단계문제](https://www.acmicpc.net/step)
 2. 100가지의 알고리즘을 공부합시다
 [100가지 알고리즘 유튜브](https://www.youtube.com/watch?v=yMqDpW__fEo&list=PLVoihNyHW4xkm_KJ8_N8X7F6EQP4uSRyR)
-3. 실전 알고리즘 강의 [실전 알고리즘 강의](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)
+3. 실전 알고리즘 강좌 [실전 알고리즘 강좌](https://www.youtube.com/watch?v=qQ5iLNjpxSk&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz)
 
 ## 7월 11일 ~ 7월 13일 도제캠프
 
