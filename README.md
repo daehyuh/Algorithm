@@ -1,6 +1,6 @@
 # Algorithm
 
-백준 125문제 풀었음
+백준 140문제 풀었음
 
 1. 백준 단계문제를 모두 풀어봅시다
 [백준 단계문제](https://www.acmicpc.net/step)
