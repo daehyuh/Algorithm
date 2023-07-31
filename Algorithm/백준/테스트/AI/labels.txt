@@ -1,0 +1,2 @@
+0 sos
+1 notsos
