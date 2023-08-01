@@ -1,46 +1,37 @@
-import sys
-n = sys.stdin.readline()
-a = int(n.split(' ')[0])
-b = int(n.split(' ')[1])
+n, m = map(int, input().split())
+board = []
 
-arr1 = []
-arr2 = []
+for _ in range(n):
+    board.append(input())
+case1 = 0  # 블랙이 먼저
+case2 = 0  # 화이트가 먼저
+res = []
+for a in range(n-7):
+    for b in range(m-7):
+        case1 = 0  # 블랙이 먼저
+        case2 = 0  # 화이트가 먼저
+        for i in range(a, a+8):
+            for j in range(b, b+8):
+                if j%2 == 0 and i%2 == 0:
+                    if board[i][j] == 'W':
+                        case1 +=1
+                    elif board[i][j] == 'B':
+                        case2 +=1
+                elif j%2 == 1 and i%2 == 0:
+                    if board[i][j] == 'B':
+                        case1 +=1
+                    elif board[i][j] == 'W':
+                        case2 +=1
+                elif j%2 == 0 and i%2 == 1:
+                    if board[i][j] == 'B':
+                        case1 +=1
+                    elif board[i][j] == 'W':
+                        case2 +=1
+                elif j%2 == 1 and i%2 == 1:
+                    if board[i][j] == 'W':
+                        case1 +=1
+                    elif board[i][j] == 'B':
+                        case2 +=1
+        res.append(min(case1, case2))
 
-line_case1 = [] # W시작 
-line_case2 = [] # B시작
-
-for i in range(b): 
-    if i % 2 == 0:
-        line_case1.append("W")
-        line_case2.append("B")
-    else:
-        line_case1.append("B")
-        line_case2.append("W")
-
-
-for i in range(a):
-    if i % 2 == 0:
-        arr1.append(line_case1)
-        arr2.append(line_case2)
-    else:
-        arr1.append(line_case2)
-        arr2.append(line_case1)
-
-arr1_cnt = 0
-arr2_cnt = 0
-
-
-input_arr = []
-
-for i in range(b):
-	input_arr.append(list(map(int, input().split())))
-
-
-for i in range(a):
-    for j in range(b):
-        if input_arr[i][j] != arr1[i][j]:
-            arr1_cnt+=1
-        if input_arr[i][j] != arr2[i][j]:
-            arr2_cnt+=1
-
-print(min(arr1_cnt,arr2_cnt))
+print(min(res))
